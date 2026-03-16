@@ -1,5 +1,9 @@
 # Amazon Price MCP
 
+[English](#english) | [日本語](#日本語) | [中文](#中文)
+
+---
+
 A Model Context Protocol (MCP) server that searches Amazon for the lowest price of any product — no PA-API required, with built-in CAPTCHA resistance via Playwright stealth mode.
 
 Supports **20 Amazon country stores** and works with **Claude Desktop** and any MCP-compatible client.
