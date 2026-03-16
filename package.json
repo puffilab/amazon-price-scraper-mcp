@@ -1,0 +1,19 @@
+{
+  "name": "amazon-price-mcp",
+  "version": "1.0.0",
+  "description": "MCP server to search Amazon for lowest prices (no PA-API, CAPTCHA-resistant)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:sse": "node src/server-sse.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^5.2.1",
+    "playwright": "^1.49.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
